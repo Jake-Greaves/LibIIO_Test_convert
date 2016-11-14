@@ -1,0 +1,6 @@
+data/picojson.lib.i
+data/main.cpp.i
+data/defaultConfig.json.i
+data/mbed.bld.i
+data/config_json.h.i
+data/libiio.lib.i

@@ -1,0 +1,2261 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1274158353</fileChecksum>
+  <configuration>
+    <name>MVP1-temp-module-mbed</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\libiio\iio-config.h</file>
+      <file>$PROJ_DIR$\..\libiio\context.c</file>
+      <file>$PROJ_DIR$\..\libiio\device.c</file>
+      <file>$PROJ_DIR$\..\ADuCM3029\pinMuxBLE.c</file>
+      <file>$PROJ_DIR$\..\src\dma\adi_dma.c</file>
+      <file>$PROJ_DIR$\..\src\uart\adi_uart.c</file>
+      <file>$PROJ_DIR$\..\src\wdt\adi_wdt.c</file>
+      <file>$PROJ_DIR$\..\src\spi\adi_spi.c</file>
+      <file>$PROJ_DIR$\..\src\startup.c</file>
+      <file>$PROJ_DIR$\..\src\common.c</file>
+      <file>$PROJ_DIR$\..\src\system.c</file>
+      <file>$PROJ_DIR$\..\src\gpio\adi_gpio.c</file>
+      <file>$PROJ_DIR$\..\src\pwr\adi_pwr.c</file>
+      <file>$PROJ_DIR$\..\libiio\buffer.c</file>
+      <file>$PROJ_DIR$\..\libiio\channel.c</file>
+      <file>$PROJ_DIR$\..\libiio\debug.h</file>
+      <file>$PROJ_DIR$\..\libiio\iio-errno.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\device.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_pwr.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cm3.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\lock.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\errno.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\libserialport_mbed.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\libserialport_mbed.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\channel.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\serial.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\context.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\common.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\iiod-client.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_dma.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale_lconv.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parserInternals.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanoftp.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parser.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pattern.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xpath.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\debugXML.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemas.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\threads.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xlink.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlunicode.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\uri.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\HTMLtree.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlreader.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpointer.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\relaxng.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpath.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlmodule.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemastypes.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlIO.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlwriter.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\uri.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xpointer.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmodule.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlsave.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xinclude.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX2.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanohttp.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\valid.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlstring.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmemory.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\tree.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xpathInternals.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dummy.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\c14n.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlregexp.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\uri.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buf.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\chvalid.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\pattern.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\nanoftp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ymath.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\nanohttp.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xzlib.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlstring.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\float.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlsave.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\legacy.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\list.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX2.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\tree.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xlink.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\encoding.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xinclude.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtgmath.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\error.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\signal.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\debugXML.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemas.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemastypes.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\threads.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmodule.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xzlib.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\relaxng.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\entities.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmemory.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlIO.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpath.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlwriter.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\hash.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\valid.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parser.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parserInternals.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocale.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanoftp.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlreader.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xtls.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlunicode.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\chvalid.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLparser.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanohttp.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpointer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\HTMLparser.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLtree.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pattern.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlsave.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\globals.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\parserInternals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlregexp.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xmtx.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xlocalelist.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dict.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\encoding.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buf.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\error.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\globals.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\catalog.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\debugXML.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\entities.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLparser.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dummy.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\legacy.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dict.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\chvalid.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLtree.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\c14n.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\catalog.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\hash.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\list.o</file>
+      <file>$PROJ_DIR$\..\src\dma\adi_dma_pl230_v2.c</file>
+      <file>$PROJ_DIR$\..\inc\services\gpio\adi_gpio.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\channel.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\SAX2.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlIO.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\globals.h</file>
+      <file>$PROJ_DIR$\..\inc\config\adi_spi_config.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlversion.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\encoding.h</file>
+      <file>$PROJ_DIR$\..\inc\config\adi_global_config.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_uart.__cstat.et</file>
+      <file>$PROJ_DIR$\..\src\pwr\adi_pwr_def_v1.h</file>
+      <file>$PROJ_DIR$\..\inc\adi_types.h</file>
+      <file>$PROJ_DIR$\..\src\spi\adi_spi_v1.c</file>
+      <file>$PROJ_DIR$\..\inc\services\pwr\adi_pwr_v1.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\scan.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_wdt.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_wdt.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\valid.h</file>
+      <file>$PROJ_DIR$\..\src\gpio\adi_gpio_v1.c</file>
+      <file>$PROJ_DIR$\..\inc\sys\ADuCM302x_typedefs.h</file>
+      <file>$PROJ_DIR$\..\inc\drivers\uart\adi_uart.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\device.__cstat.et</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\parser.h</file>
+      <file>$PROJ_DIR$\..\inc\device.h</file>
+      <file>$PROJ_DIR$\..\inc\ADuCM3029_cdef.h</file>
+      <file>$PROJ_DIR$\..\src\pwr\adi_pwr_v1.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pinMuxBLE.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\locale.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\serial.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_wdt.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_spi.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_uart.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\lock.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\startup.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buffer.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\scan.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buffer.o</file>
+      <file>$PROJ_DIR$\..\inc\drivers\uart\adi_uart_v1.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xml.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\utilities.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\utilities.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\context.__cstat.et</file>
+      <file>$PROJ_DIR$\..\inc\common.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_gpio.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pinMuxBLE.pbi</file>
+      <file>$PROJ_DIR$\..\src\gpio\adi_gpio_def_v1.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\device.o</file>
+      <file>$PROJ_DIR$\..\inc\sys\ADuCM302x_cdef.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\SAX.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlmemory.h</file>
+      <file>$PROJ_DIR$\..\inc\services\dma\adi_dma.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlautomata.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\startup.o</file>
+      <file>$PROJ_DIR$\..\inc\ADuCM3029.h</file>
+      <file>$PROJ_DIR$\..\inc\startup.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlerror.h</file>
+      <file>$PROJ_DIR$\..\inc\services\pwr\adi_pwr.h</file>
+      <file>$PROJ_DIR$\..\src\wdt\adi_wdt_def_v1.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_spi.pbi</file>
+      <file>$PROJ_DIR$\..\inc\sys\platform.h</file>
+      <file>$PROJ_DIR$\..\inc\services\dma\adi_dma_pl230_v2.h</file>
+      <file>$PROJ_DIR$\..\inc\system.h</file>
+      <file>$PROJ_DIR$\..\inc\ssdd_common\common_def.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\iiod-client.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_pwr.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_dma.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlstring.h</file>
+      <file>$PROJ_DIR$\..\inc\sys\ADuCM302x.h</file>
+      <file>$PROJ_DIR$\..\inc\services\int\adi_int.h</file>
+      <file>$PROJ_DIR$\..\inc\ADuCM3029_device.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\context.pbi</file>
+      <file>$PROJ_DIR$\..\inc\services\gpio\adi_gpio_v1.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+      <file>$PROJ_DIR$\..\inc\adi_processor.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlregexp.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\dict.h</file>
+      <file>$PROJ_DIR$\..\inc\drivers\spi\adi_spi_v1.h</file>
+      <file>$PROJ_DIR$\..\inc\services\wdt\adi_wdt_v1.h</file>
+      <file>$PROJ_DIR$\..\inc\config\adi_wdt_config.h</file>
+      <file>$PROJ_DIR$\..\inc\services\wdt\adi_wdt.h</file>
+      <file>$PROJ_DIR$\..\libiio\iio.h</file>
+      <file>$PROJ_DIR$\..\libiio\iiod-client.c</file>
+      <file>$PROJ_DIR$\..\config_json.h</file>
+      <file>$PROJ_DIR$\..\libiio\lock.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\c14n.h</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\dict.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\DOCBparser.h</file>
+      <file>$PROJ_DIR$\..\libiio.lib</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\encoding.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\entities.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\chvalid.h</file>
+      <file>$PROJ_DIR$\..\libiio\serial.c</file>
+      <file>$PROJ_DIR$\..\libiio\scan.c</file>
+      <file>$PROJ_DIR$\..\libiio\libserialport\libserialport.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\globals.h</file>
+      <file>$PROJ_DIR$\..\libiio\iio-lock.h</file>
+      <file>$PROJ_DIR$\..\libiio\iio-private.h</file>
+      <file>$PROJ_DIR$\..\libiio\utilities.c</file>
+      <file>$PROJ_DIR$\..\libiio\xml.c</file>
+      <file>$PROJ_DIR$\..\libiio\libserialport\libserialport_mbed.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\catalog.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\debugXML.h</file>
+      <file>$PROJ_DIR$\..\libiio\iiod-client.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\SAX.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xlink.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlmodule.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlreader.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\parser.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\schemasInternals.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\uri.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\list.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\pattern.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\SAX2.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlautomata.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\valid.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\hash.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\parserInternals.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\threads.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\HTMLparser.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\tree.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\HTMLtree.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\nanohttp.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xinclude.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlexports.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\schematron.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlIO.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\relaxng.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlerror.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlmemory.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\nanoftp.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlunicode.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\parserInternals.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlwriter.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlIO.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlmodule.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlreader.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\parser.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlsave.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\HTMLparser.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\HTMLtree.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\pattern.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\threads.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\timsort.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\tree.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\SAX.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\save.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\uri.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\valid.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlregexp.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\legacy.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\list.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\relaxng.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xlink.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlmemory.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlschemas.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\nanoftp.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\SAX2.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlstring.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xinclude.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\nanohttp.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xmlschemastypes.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\chvalid.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\config.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlschemastypes.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\dummy.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlschemas.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\catalog.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\elfgcchack.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\encoding.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlunicode.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xpointer.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlversion.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\error.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xpathInternals.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\hash.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\c14n.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\dict.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\globals.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlwriter.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xpath.h</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlsave.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\enc.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\entities.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlregexp.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\buf.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\debugXML.c</file>
+      <file>$PROJ_DIR$\libiio\libxml2\libxml\xmlstring.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\buf.c</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_pwr.__cstat.et</file>
+      <file>$PROJ_DIR$\..\src\wdt\adi_wdt_v1.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\tree.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\common.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\system.__cstat.et</file>
+      <file>$PROJ_DIR$\..\inc\sys\ADuCM302x_device.h</file>
+      <file>$PROJ_DIR$\..\inc\config\adi_pwr_config.h</file>
+      <file>$PROJ_DIR$\..\src\spi\adi_spi_data_v1.c</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_spi.o</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\src\spi\adi_spi_def_v1.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xmlexports.h</file>
+      <file>$PROJ_DIR$\..\src\uart\adi_uart_def_v1.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\MVP1-temp-module-mbed.pbd</file>
+      <file>$PROJ_DIR$\..\src\uart\adi_uart_v1.c</file>
+      <file>$TOOLKIT_DIR$\CMSIS\Include\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\xlink.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\..\inc\drivers\spi\adi_spi.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\channel.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\entities.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xml.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\threads.h</file>
+      <file>$PROJ_DIR$\..\src\uart\adi_uart_data_v1.c</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\scan.__cstat.et</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\list.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\startup.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\utilities.o</file>
+      <file>$PROJ_DIR$\..\inc\config\adi_uart_config.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buffer.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\lock.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_dma.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\system.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xml.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\common.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xzlib.c</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xpointer.c</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\picojson\picojson.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_gpio.o</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xpath.c</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\iiod-client.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_uart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\serial.pbi</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\adi_gpio.__cstat.et</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\xzlib.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pinMuxBLE.o</file>
+      <file>$PROJ_DIR$\build\iar_arm\Exe\c.out</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\system.pbi</file>
+      <file>$PROJ_DIR$\..\libiio\libxml2\libxml\hash.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLtree.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\legacy.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\relaxng.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\debugXML.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\tree.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\valid.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xinclude.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dict.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\chvalid.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\encoding.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\error.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\globals.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parserInternals.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\pattern.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\catalog.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\threads.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\dummy.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\libserialport_mbed.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\c14n.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\entities.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanoftp.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\SAX2.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xlink.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlIO.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\parser.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\buf.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\list.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\nanohttp.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\uri.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\hash.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\HTMLparser.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlstring.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlwriter.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmodule.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemas.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpointer.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xzlib.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlunicode.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlregexp.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlreader.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xpath.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlschemastypes.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlsave.__cstat.et</file>
+      <file>$PROJ_DIR$\build\iar_arm\Obj\xmlmemory.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 403</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\context.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 233</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 204</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 370 35 406 16 400 21 25 34 19 0 260 199 391 31 243 20 15 190 27 397 203 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 0 16 25 260 243 397 20 203 34 183 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\device.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 209</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 178</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 406 34 400 35 190 199 31 260 27 243 20 19 16 22 370 391 21 407 397 203 183 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 16 25 260 243 397 20 203 34 183 22 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\ADuCM3029\pinMuxBLE.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 207</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 402</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 184</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 358 23 180 190 368 236 216 181 203 199 27 176 171 232 210 230 21 31 407 222 362 162</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 222 180 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\dma\adi_dma.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 228</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 385</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 231 164 406 199 23 358 31 171 154 216 181 203 362 194 236 232 210 230 21 407 225 223 190 27 176 368 162 370 213 167 20 35 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 154 231 164 167 20 370 35 19 194 213 223 225</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\uart\adi_uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 189</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 396</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 165</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 177 23 362 171 213 367 216 181 406 31 199 20 167 232 210 230 21 407 382 377 231 203 370 236 358 190 27 176 368 162 225 164 197 183 194 219 35 19 223 169 365</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 367 382 164 225 231 167 20 177 197 183 35 370 19 194 213 223 219 169 377 365</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\wdt\adi_wdt.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 173</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 187</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 172</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190 23 358 406 370 199 236 354 216 181 203 27 242 167 232 210 230 21 31 407 362 171 183 164 240 241 176 368 162 231 225 220 35 19 20</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 354 370 35 19 231 164 167 20 183 225 242 240 241 220</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\spi\adi_spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 221</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 361</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 188</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 164 167 363 23 190 370 203 168 216 181 358 162 231 199 19 232 210 230 27 176 368 213 35 236 21 31 407 362 171 34 371 219 225 360 239 160 20 223 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 168 34 35 370 19 371 239 160 164 231 167 20 213 223 219 169 225 360 363</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\startup.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 192</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 215</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 380</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 203 167 164 27 216 181 199 406 368 236 23 358 176 224 232 210 230 21 31 190 162 20 35 217 407 362 171 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 217 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 167 20 164 224 183 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 356</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 388</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 236 400 391 31 199 167 183 242 23 203 162 21 407 35 240 216 181 231 197 219 34 370 177 190 27 19 232 210 230 358 176 368 194 382 205 362 171 241 20 164 213 223 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 205 203 406 199 21 190 27 31 407 400 35 391 34 183 370 19 242 236 216 181 210 230 232 358 176 23 362 171 162 368 240 167 20 231 164 241 177 197 194 213 223 219 169 382</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\system.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 404</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 386</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 357</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190 236 406 164 230 231 199 27 183 203 232 210 224 21 31 407 167 35 20 216 181 23 358 176 362 162 171 368</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 203 406 199 21 190 27 31 407 224 183 35 167 20 236 216 181 210 230 232 358 176 23 362 171 162 368 231 164</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\gpio\adi_gpio.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 206</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 393</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 399</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 183 190 23 358 236 175 216 181 203 199 406 162 208 232 210 230 27 176 368 225 164 234 167 21 31 407 362 171 231 194 155 20 35</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 175 231 164 167 20 183 35 194 225 155 234 208</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\pwr\adi_pwr.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 227</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 353</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 406 359 23 358 31 171 164 182 216 181 203 362 167 232 210 230 21 407 34 225 155 35 231 236 190 27 176 368 162 224 166 219 20 183 169 234</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 236 216 181 210 230 232 203 406 199 21 190 27 31 407 358 176 23 362 171 162 368 182 34 35 231 164 167 20 224 183 225 166 359 219 169 155 234</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\buffer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 383</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 196</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 193</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243 25 406 199 370 27 20 35 19 260 21 31 190 34 16 407 397 203 183</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 16 25 406 199 21 190 27 31 407 260 243 397 20 203 34 35 183 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\channel.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 156</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 373</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 407 406 20 370 21 203 260 400 391 31 397 183 35 19 16 190 27 25 243 34 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 16 25 260 243 397 20 203 34 183 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\iiod-client.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 226</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 395</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 260 406 34 31 16 370 35 190 199 243 20 19 266 259 22 400 391 21 407 397 203 183 15 25</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 266 243 397 20 203 34 183 16 25 259 260 22 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\lock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 191</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 384</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 406 27 34 31 190 35 21 407 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 34 406 199 21 190 27 31 407 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 198</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 372</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 35 167 31 406 183 205 34 242 20 16 243 400 230 197 219 260 25 397 203 21 407 391 19 232 210 362 171 241 236 194 382 190 27 370 177 240 216 181 23 358 176 368 162 231 164 213 223 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 243 397 406 199 21 190 27 31 407 20 203 34 35 183 260 16 25 205 400 391 370 19 242 236 216 181 210 230 232 358 176 23 362 171 162 368 240 167 231 164 241 177 197 194 213 223 219 169 382</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\serial.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 398</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 186</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 243 210 199 183 370 406 266 232 362 171 260 400 27 20 219 167 16 259 257 34 35 190 25 177 230 203 194 382 15 391 21 31 407 397 236 197 216 181 23 358 176 368 162 213 231 19 223 164 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 16 25 260 243 397 20 203 34 183 259 266 257 177 236 216 181 210 230 232 358 176 23 362 171 162 368 197 370 19 194 213 223 231 164 167 219 169 382</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\scan.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 195</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 170</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 378</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 370 199 31 183 406 260 21 407 20 203 35 19 16 25 190 27 243 34 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 16 25 406 199 21 190 27 31 407 260 243 397 20 203 34 35 183 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\utilities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 201</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 381</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 202</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 400 407 20 203 406 260 370 199 31 397 183 35 16 185 34 25 190 27 243 39 0 391 19</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 0 16 25 406 199 21 190 27 31 407 260 243 397 20 203 34 35 183 185 39 400 391 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\xml.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 387</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 375</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 200</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 161 199 211 35 190 237 218 370 406 25 34 397 235 238 158 214 179 260 27 243 20 229 212 376 174 355 163 19 16 400 391 21 31 407 203 183 364 157 405 374 379 369 15</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 15 400 406 199 21 190 27 31 407 35 391 16 25 260 243 397 20 203 34 183 355 161 364 229 237 212 376 159 179 238 405 174 218 379 214 374 163 158 211 369 157 370 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libserialport\libserialport_mbed.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 426</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 199 31 219 230 171 257 406 19 21 407 232 210 362 183 167 177 190 27 236 197 216 181 23 203 194 382 20 370 358 176 368 162 213 231 223 164 169</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 370 406 199 21 190 27 31 407 35 19 177 236 216 181 210 230 232 203 358 176 23 362 171 162 368 197 20 183 194 213 223 231 164 167 219 169 382 257</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlunicode.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 119</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 446</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\parserInternals.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 420</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 397 174 406 161 355 212 346 332 163 211 327 364 35 190 199 19 400 229 179 218 50 120 27 376 374 379 299 370 131 34 130 158 238 159 349 391 21 31 407 115 185 157 235 405 237 369 125 118 142 134 133 39 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 131 115 118 133 34 142 185 39 134 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 50 349 346 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlwriter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 441</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 159 161 199 238 179 400 27 370 51 327 364 35 190 211 174 355 31 125 299 212 50 391 21 407 218 158 235 214 369 19 376 157 405 374 229 163 397 237 379 34</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 50 51 125</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlIO.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 432</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 391 376 349 218 379 179 374 25 83 31 199 406 400 355 163 229 397 370 34 158 21 407 157 235 405 159 237 369 125 299 212 130 50 81 346 332 327 364 35 190 27 19 211 238 174 214 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 25 34 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 50 83 81 349 346 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlmodule.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 442</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 163 355 406 229 218 400 27 376 161 397 179 370 159 327 364 35 190 157 374 379 299 212 57 199 391 21 31 407 19 235 405 237 34 211 238 174 158 214 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 57</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlreader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 117</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 448</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\parser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 113</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 433</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400 229 163 161 376 346 374 397 130 131 27 218 115 185 34 235 355 50 406 199 214 159 369 179 39 299 370 212 174 158 349 332 327 364 35 190 31 157 405 238 120 391 21 407 19 211 237 379 125 118 142 134 133</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 397 370 19 212 376 159 179 355 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 50 131 115 118 133 142 185 39 134 349 346 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlsave.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 128</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 451</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 400 355 163 179 161 406 229 51 35 397 130 27 376 218 374 379 370 87 346 332 327 364 190 199 19 157 235 405 159 237 34 120 125 299 212 349 310 391 21 31 407 211 238 174 158 214 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 130 125 120 87 51 349 346 310 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\HTMLparser.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 121</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 144</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 439</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\HTMLtree.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 126</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 149</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 408</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\pattern.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 127</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 421</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 21 161 130 406 218 120 355 199 405 159 237 34 370 238 391 31 190 19 235 229 397 179 299 212 80 327 400 364 27 376 157 374 163 379 407 211 174 158 214 369 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 130 125 120 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\threads.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 424</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 159 21 400 214 355 199 407 218 235 369 370 34 391 31 211 238 158 299 376 332 327 364 406 35 190 27 179 212 174 19 157 405 374 229 163 397 237 379</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 212 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\tree.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 71</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 412</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 159 364 34 199 237 327 405 161 179 212 35 190 19 374 332 406 115 185 157 235 229 397 355 218 400 370 310 27 376 163 379 369 120 299 131 50 174 130 349 391 21 31 407 118 142 134 133 39 211 238 158 214 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 397 131 115 118 133 34 142 185 39 134 212 376 159 179 355 229 237 238 405 174 218 379 214 374 163 158 211 369 157 50 130 125 120 349 310 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\SAX.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 422</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 179 161 51 174 400 214 355 212 158 406 27 218 235 159 369 34 50 157 327 364 35 199 238 299 370 130 374 45 211 391 21 190 31 120 229 407 19 376 405 163 397 237 379 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 45 50 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\uri.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 437</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 397 159 179 376 391 174 355 50 31 199 212 406 237 34 370 218 21 407 211 238 158 35 299 332 327 400 364 190 27 19 157 235 405 374 229 163 379 214 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 50 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\valid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 112</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 413</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 364 199 161 327 35 369 174 190 19 212 238 34 379 332 406 159 179 376 355 120 370 405 130 400 27 211 218 158 235 214 299 50 391 21 31 407 157 374 229 163 397 237 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 34 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 50 130 125 120 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlregexp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 132</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 447</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\legacy.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 146</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 409</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\list.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 153</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 435</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 374 31 35 157 161 179 212 391 400 376 379 34 159 199 21 407 406 355 163 229 397 299 370 332 327 364 190 27 19 218 235 405 237 369 211 238 174 158 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\relaxng.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 55</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 410</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xlink.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 431</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27 332</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlmemory.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 70</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 452</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 157 406 374 199 407 34 159 131 35 133 376 379 124 21 142 161 355 163 229 397 370 212 391 31 118 134 218 235 405 237 179 299 332 327 400 364 190 27 19 115 185 39 211 238 174 158 214 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 124 34 131 115 118 133 142 185 39 134 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 212 376 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlschemas.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 443</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\nanoftp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 116</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 429</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 400 391 31 299 327 364 199 21 161 406 35 190 27 332</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\SAX2.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 430</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 199 120 376 35 31 174 190 159 179 161 130 327 364 397 45 332 406 238 400 34 355 374 211 27 212 299 370 218 158 50 51 391 21 407 19 235 214 369 229 125 157 405 163 237 379</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 370 19 397 212 376 159 179 355 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 45 50 51 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlstring.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 440</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 405 237 355 19 159 21 161 406 218 212 199 407 35 157 235 229 397 179 120 34 391 31 400 376 374 163 379 299 370 130 332 327 364 190 27 211 238 174 158 214 369 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xinclude.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 414</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376 406 400 62 379 161 355 159 35 157 374 179 370 50 218 332 327 364 27 163 229 397 299 212 44 130 199 391 21 31 190 19 235 405 237 34 125 407 211 238 174 158 214 369 120</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 50 44 62 130 125 120 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\nanohttp.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 122</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 436</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 400 391 31 299 327 364 199 21 161 406 35 190 27 332</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xmlschemastypes.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 450</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\chvalid.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 148</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 416</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 35 21 120 406 407 199 299 332 327 400 364 391 31 190 27 229 235</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 120 229 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\dummy.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 145</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 425</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 406 199 31 407 183 35 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 183 406 199 21 190 27 31 407 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\catalog.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 151</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 140</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 423</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\encoding.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 136</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 417</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 406 237 355 199 133 400 161 163 407 179 349 21 142 39 405 159 369 370 391 31 118 134 157 235 229 218 34 299 397 131 212 346 332 327 364 35 190 27 19 115 185 376 374 379 211 238 174 158 214</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 397 131 115 118 133 34 142 185 39 134 163 355 229 237 212 376 159 179 238 405 174 218 379 214 374 158 211 369 157 349 346 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\error.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 138</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 418</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 238 158 406 218 179 400 237 355 161 34 370 212 35 397 157 299 235 159 332 327 364 190 199 19 174 229 379 163 391 21 31 407 405 374 214 211 376 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 179 355 397 229 237 238 405 174 218 379 214 374 163 158 159 211 34 369 157 212 376 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\hash.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 111</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 152</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 438</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 158 161 212 391 199 238 179 34 405 31 370 124 218 355 376 299 159 332 327 400 364 406 35 21 407 174 235 214 211 369 190 27 19 374 229 163 397 237 379 157</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 34 124 179 355 397 229 237 238 405 174 218 379 214 374 163 158 159 211 369 157 212 376 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\c14n.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 150</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 427</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\dict.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 147</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 135</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 415</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 161 159 212 199 407 211 406 218 179 34 21 35 238 158 214 355 397 124 391 31 400 235 376 174 163 299 370 203 332 327 364 190 27 19 229 237 157 405 374 379 369</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 397 34 124 370 19 203 355 229 237 212 376 159 179 238 405 174 218 379 214 374 163 158 211 369 157 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\globals.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 129</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 139</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 419</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376 27 174 332 161 370 327 179 199 355 34 212 211 400 406 238 299 159 364 35 190 31 218 158 235 214 369 391 21 407 19 157 405 374 229 163 397 237 379</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 34 370 19 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 212 376 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\entities.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 143</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 428</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 190 161 199 238 35 19 212 179 327 364 120 34 332 406 159 376 174 355 370 405 218 400 27 211 158 235 214 299 374 130 310 391 21 31 407 157 229 163 397 237 379 369 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 34 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 310 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\debugXML.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 141</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 411</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\buf.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 137</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 434</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 369 199 212 400 406 35 161 355 159 179 349 27 235 376 174 238 370 332 327 364 190 19 115 185 34 211 218 158 214 229 299 397 131 130 391 21 31 407 118 142 134 133 39 237 157 405 374 163 379 120 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 397 131 115 118 133 34 142 185 39 134 355 229 237 212 376 159 179 238 405 174 218 379 214 374 163 158 211 369 157 130 125 120 349 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xzlib.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 445</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 407 406 161 35 199 299 327 400 364 391 21 31 190 27</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xpointer.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 123</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 444</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 376 400 72 199 379 212 406 190 19 161 157 374 179 370 50 159 327 364 35 355 163 229 397 299 62 130 44 218 391 21 31 27 235 405 237 34 120 407 211 238 174 158 214 369 125</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 62 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 34 369 157 130 125 120 50 44 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\libiio\libxml2\xpath.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 449</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 130 199 406 400 355 163 131 31 133 229 79 159 161 391 19 142 39 397 370 86 97 44 218 21 407 35 82 118 134 376 374 379 179 120 299 212 174 72 405 349 307 332 327 364 190 27 95 115 185 34 157 235 237 369 211 238 158 214 125 203</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 299 327 161 364 400 406 199 21 190 27 31 407 35 391 370 19 79 82 95 86 131 115 118 133 34 142 185 39 134 97 212 376 159 179 355 397 229 237 238 405 174 218 379 214 374 163 158 211 369 157 44 72 130 125 120 349 307 203 332</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\..\libiio\context.c</name>
+      <tool>C-STAT</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,13 @@
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armjlink2.dll" 
+
+"E:\users\jake\Documents\GitHub\LibIIO_Test_convert\Project\build\iar_arm\Exe\c.out" 
+
+--plugin "E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--flash_loader "E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\config\flashloader\AnalogDevices\FlashADUCM3029.board" 
+
+
+
+
